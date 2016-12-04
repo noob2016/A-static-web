@@ -1,0 +1,391 @@
+.clean{
+    clear:both;
+}
+.total{
+    height: 1000px;
+    width: 1100px;
+    margin: auto;
+}
+div.header{
+    width: 100%;
+    height: 520px;
+}
+div.middle{
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+
+}
+div.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #7c145c;
+    border: 1px solid;
+}
+div.header1{
+    width: 50%;
+    height: 100px;
+    background-image: url("../images/home-flower_03.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: left;
+}
+div.header2{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #cecccc;
+    border-radius: 10px;
+}
+div.header3{
+    width: 98%;
+    height: 350px;
+    background-image: url("../images/home-flower_11.png");
+    background-repeat: no-repeat;
+    border: 12px solid #B8B8B8;
+    background-size: 100%;
+    margin:auto;
+}
+div.middle1{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+div.middle2{
+    height: 100%;
+    width: 73%;
+    float: right;
+}
+div.header2_1{
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height:50px;
+    font-size: 1.2em;
+}
+div.header2_2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+div.header2_3{
+    width: 30%;
+    height: 100%;
+    float: left;
+    line-height:50px;
+    font-size: 1.2em;
+}
+div.middle1_1{
+    width: 100%;
+    height: 47.5%;
+    background-color: darkorange;
+}
+div.middle1_2{
+    width: 100%;
+    height: 47.5%;
+    margin-top: 5%;
+    background-color: darkorange;
+}
+div.middle2_1{
+    width: 99.6%;
+    height: 20%;
+    background-color: #29CFA7;
+    margin: 0;
+    float: left;
+}
+div.middle2_2{
+    width: 66.2%;
+    height: 46%;
+    float: left;
+    margin-top: 0.5%;
+    background-image: url("../images/home-flower22_03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.middle2_3{
+    width: 33%;
+    height: 46%;
+    float:left;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+div.middle2_4{
+    width: 33%;
+    height: 30%;
+    float: left;
+    margin-top: 0.5%;
+    background-image: url("../images/home-flower_02_12.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.middle2_5{
+    width: 30.2%;
+    height: 22%;
+    background-color: #29CFA7;
+    float:left;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    padding-top: 8%;
+    padding-left: 2.5%;
+}
+div.middle2_6{
+    width: 33%;
+    height: 30%;
+    float:left;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    background-image: url("../images/home-flower_02_14.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a.link1{
+    text-decoration:none;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 20px;
+    background-color: #AE5EA2;
+}
+ul.list1>li{
+    width: 100px;
+    text-align: center;
+}
+ul.list1{
+    float: left;
+    list-style-type:none;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+ul.list1>li{
+    float: left;
+}
+li.list1_1{
+    padding-left: -50px;
+}
+a.link2{
+    width: 10%;
+    text-decoration:none;
+    color: black;
+    font-weight: 800;
+    padding: 4px 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+a.link2:hover{
+    background-color:#AE5EA2 ;
+    border: 1px solid #AE5EA2;
+    margin-left: 5px;
+    border-radius:20px;
+}
+li.list1_2:hover div.sub{
+    left:0;
+    top: 5px;
+    /**下拉框定义到div本身**/
+}
+div.sub{
+    width: 150px;
+    position: relative;
+    left: -900px;
+    /**下拉框本身**/
+}
+ul.down{
+    clear: both;
+    width: 120px;
+    background-color: #e657bf;
+    list-style: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Angsana New";
+    font-size: 1.3em;
+    padding: 0 5px;
+}
+ul.down li{
+    padding-left: 10px;
+    text-align: left;
+}
+ul.down li a{
+    text-decoration: none;
+    color: white;
+}
+ul.down li a:hover{
+    color: #7c145c;
+}
+a.link3 {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 2px 20px;
+    background-color: #AE5EA2;
+    margin-left: 5px;
+}
+.retrieve{
+    position: relative;
+    top:-4px;
+    height: 20px;
+    border-radius: 20px;
+}
+input.btn{
+    background-color: #AE5EA2;
+    width: 38px;
+    height: 25px;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 20px;
+    position: relative;
+    top: 4px;
+}
+input.btn:hover{
+    color: aqua;
+}
+div.middle1_1_1{
+    height: 20%;
+    text-align: center;
+    background-color: #AE5EA2;
+    line-height:70px;
+}
+div.middle1_1_2{
+    width: 100%;
+    height: 80%;
+    background-color: #E6E1E4;
+    margin-top: 0;
+}
+span.middle_title1{
+    font-size: 2em;
+    font-family: "Angsana New";
+    color: white;
+}
+.mid_ul {
+    list-style-type: none;
+    line-height: 30px;
+    color: #64666b;
+    margin: 0;
+    padding-top: 50px;
+    font-weight: 800;
+    font-family: "Angsana New";
+    font-size: 1.5em;
+}
+
+div.middle1_2_2{
+    width: 100%;
+    height: 81%;
+    background-size: 100%;
+    text-align: center;
+    background-color: #E6E1E4;
+}
+img.img1{
+    height: 75%;
+    width: 80%;
+}
+p.title{
+    color: white;
+    font-size: 2em;
+    margin-left: 30px;
+    line-height: 10px;
+}
+p.content{
+    margin-left: 50px;
+    color: white;
+}
+span.styGray{
+    color: gray;
+}
+div.middle2_3_1{
+    width: 100%;
+    height: 70%;
+    background-image: url("../images/home-flower_02_05.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.styRed{
+    color: red;
+    font-weight: 800;
+}
+span.through{
+    text-decoration: line-through;
+    color: gray;
+}
+div.middle2_3_2{
+    height: 20%;
+    width: 80%;
+    padding-top: 13.5%;
+    padding-left: 20%;
+    background-color: #FFB38F;
+}
+div.middle2_3_2>span{
+    line-height: 30px;
+    color: white;
+    font-size: 1.5em;
+    font-family: Andalus;
+}
+div.middle2_5>span{
+    line-height: 30px;
+    color: white;
+    font-size: 1.3em;
+    font-family: Andalus;
+}
+div.middle2_5>span>div{
+    padding-left: 100px;
+}
+div.footer1{
+    width: 40%;
+    padding-top: 30px;
+    text-align: center;
+    float: left;
+}
+div.footer2{
+    height: 20px;
+    padding-top: 30px;
+    text-align: center;
+    float: right;
+}
+div.footer3{
+    width: 40%;
+    height: 40px;
+    text-align: left;
+    float: right;
+    line-height: 40px;
+}
+div.footer2 ul{
+    float: left;
+    width: 400px;
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+div.footer2 ul li{
+    float: left;
+    padding-top: 0;
+    margin: 0;
+    font-family: "Angsana New";
+    font-size: 1.7em;
+    position: relative;
+    top: -20px;
+    color: white;
+}
+div.footer3 span{
+    font-family: "Angsana New";
+    font-size: 1.7em;
+    color: white;
+}
+ul.mid_ul li a{
+    text-decoration: none;
+    color: #64666b;
+}
+ul.mid_ul li a:hover{
+    color: #7c145c;
+}
+div.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+div.footer2 ul li a:hover{
+    color: black;
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
